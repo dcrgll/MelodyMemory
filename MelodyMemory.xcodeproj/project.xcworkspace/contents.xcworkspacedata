@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SiomSays.xcodeproj">
+      location = "self:/Users/dancargill/dev/iOS/SiomSays/MelodyMemory.xcodeproj">
    </FileRef>
 </Workspace>

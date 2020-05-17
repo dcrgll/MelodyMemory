@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3C5C79246F600F000C2741 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C78246F600F000C2741 /* RoundedButton.swift */; };
+		BF3C5C7A246F6524000C2741 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C78246F600F000C2741 /* RoundedButton.swift */; };
+		BF3C5C7B246F6524000C2741 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5C78246F600F000C2741 /* RoundedButton.swift */; };
+		BF3C5C8C24708BB8000C2741 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8724708BA8000C2741 /* 0.mp3 */; };
+		BF3C5C8D24708BB8000C2741 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8724708BA8000C2741 /* 0.mp3 */; };
+		BF3C5C8E24708BB9000C2741 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8724708BA8000C2741 /* 0.mp3 */; };
+		BF3C5C8F24708BBD000C2741 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8A24708BAD000C2741 /* 1.mp3 */; };
+		BF3C5C9024708BBD000C2741 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8A24708BAD000C2741 /* 1.mp3 */; };
+		BF3C5C9124708BBE000C2741 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8A24708BAD000C2741 /* 1.mp3 */; };
+		BF3C5C9224708BC1000C2741 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8B24708BAD000C2741 /* 2.mp3 */; };
+		BF3C5C9324708BC2000C2741 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8B24708BAD000C2741 /* 2.mp3 */; };
+		BF3C5C9424708BC3000C2741 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8B24708BAD000C2741 /* 2.mp3 */; };
+		BF3C5C9524708BC6000C2741 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8924708BAD000C2741 /* 3.mp3 */; };
+		BF3C5C9624708BC7000C2741 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8924708BAD000C2741 /* 3.mp3 */; };
+		BF3C5C9724708BC7000C2741 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8924708BAD000C2741 /* 3.mp3 */; };
+		BF3C5C9824708BCB000C2741 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8824708BAD000C2741 /* 4.mp3 */; };
+		BF3C5C9924708BCB000C2741 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8824708BAD000C2741 /* 4.mp3 */; };
+		BF3C5C9A24708BCC000C2741 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF3C5C8824708BAD000C2741 /* 4.mp3 */; };
+		BF3C5C9B2470BCCA000C2741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3C93246EE5F40018A9D2 /* ViewController.swift */; };
+		BF5DB7F72471A4E2001C6A7C /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DB7F62471A4E2001C6A7C /* GlobalVariable.swift */; };
+		BF5DB7F82471A4E2001C6A7C /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DB7F62471A4E2001C6A7C /* GlobalVariable.swift */; };
+		BF5DB7F92471A4E2001C6A7C /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DB7F62471A4E2001C6A7C /* GlobalVariable.swift */; };
 		BF6D3C90246EE5F40018A9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3C8F246EE5F40018A9D2 /* AppDelegate.swift */; };
 		BF6D3C92246EE5F40018A9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3C91246EE5F40018A9D2 /* SceneDelegate.swift */; };
 		BF6D3C94246EE5F40018A9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3C93246EE5F40018A9D2 /* ViewController.swift */; };
@@ -15,6 +37,7 @@
 		BF6D3C9C246EE5F80018A9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6D3C9A246EE5F80018A9D2 /* LaunchScreen.storyboard */; };
 		BF6D3CA7246EE5F80018A9D2 /* SiomSaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3CA6246EE5F80018A9D2 /* SiomSaysTests.swift */; };
 		BF6D3CB2246EE5F80018A9D2 /* SiomSaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6D3CB1246EE5F80018A9D2 /* SiomSaysUITests.swift */; };
+		BF7D1D2B2471797B00AA3063 /* ScoreScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D1D2A2471797B00AA3063 /* ScoreScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF6D3C8C246EE5F40018A9D2 /* SiomSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiomSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3C5C78246F600F000C2741 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BF3C5C8724708BA8000C2741 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		BF3C5C8824708BAD000C2741 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		BF3C5C8924708BAD000C2741 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		BF3C5C8A24708BAD000C2741 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		BF3C5C8B24708BAD000C2741 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		BF5DB7F62471A4E2001C6A7C /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		BF6D3C8C246EE5F40018A9D2 /* MelodyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelodyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6D3C8F246EE5F40018A9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6D3C91246EE5F40018A9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF6D3C93246EE5F40018A9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +73,13 @@
 		BF6D3C98246EE5F80018A9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6D3C9B246EE5F80018A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6D3C9D246EE5F80018A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF6D3CA2246EE5F80018A9D2 /* SiomSaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiomSaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6D3CA2246EE5F80018A9D2 /* MelodyMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodyMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6D3CA6246EE5F80018A9D2 /* SiomSaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiomSaysTests.swift; sourceTree = "<group>"; };
 		BF6D3CA8246EE5F80018A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF6D3CAD246EE5F80018A9D2 /* SiomSaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiomSaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6D3CAD246EE5F80018A9D2 /* MelodyMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelodyMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6D3CB1246EE5F80018A9D2 /* SiomSaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiomSaysUITests.swift; sourceTree = "<group>"; };
 		BF6D3CB3246EE5F80018A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7D1D2A2471797B00AA3063 /* ScoreScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,64 +107,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF3C5C8624708BA2000C2741 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C5C8724708BA8000C2741 /* 0.mp3 */,
+				BF3C5C8A24708BAD000C2741 /* 1.mp3 */,
+				BF3C5C8B24708BAD000C2741 /* 2.mp3 */,
+				BF3C5C8924708BAD000C2741 /* 3.mp3 */,
+				BF3C5C8824708BAD000C2741 /* 4.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		BF6D3C83246EE5F40018A9D2 = {
 			isa = PBXGroup;
 			children = (
-				BF6D3C8E246EE5F40018A9D2 /* SiomSays */,
-				BF6D3CA5246EE5F80018A9D2 /* SiomSaysTests */,
-				BF6D3CB0246EE5F80018A9D2 /* SiomSaysUITests */,
+				BF6D3C8E246EE5F40018A9D2 /* MelodyMemory */,
+				BF6D3CA5246EE5F80018A9D2 /* MelodyMemoryTests */,
+				BF6D3CB0246EE5F80018A9D2 /* MelodyMemoryUITests */,
 				BF6D3C8D246EE5F40018A9D2 /* Products */,
+				BF3C5C8624708BA2000C2741 /* Audio */,
 			);
 			sourceTree = "<group>";
 		};
 		BF6D3C8D246EE5F40018A9D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF6D3C8C246EE5F40018A9D2 /* SiomSays.app */,
-				BF6D3CA2246EE5F80018A9D2 /* SiomSaysTests.xctest */,
-				BF6D3CAD246EE5F80018A9D2 /* SiomSaysUITests.xctest */,
+				BF6D3C8C246EE5F40018A9D2 /* MelodyMemory.app */,
+				BF6D3CA2246EE5F80018A9D2 /* MelodyMemoryTests.xctest */,
+				BF6D3CAD246EE5F80018A9D2 /* MelodyMemoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF6D3C8E246EE5F40018A9D2 /* SiomSays */ = {
+		BF6D3C8E246EE5F40018A9D2 /* MelodyMemory */ = {
 			isa = PBXGroup;
 			children = (
+				BF3C5C78246F600F000C2741 /* RoundedButton.swift */,
+				BF7D1D2A2471797B00AA3063 /* ScoreScreenView.swift */,
 				BF6D3C8F246EE5F40018A9D2 /* AppDelegate.swift */,
 				BF6D3C91246EE5F40018A9D2 /* SceneDelegate.swift */,
 				BF6D3C93246EE5F40018A9D2 /* ViewController.swift */,
+				BF5DB7F62471A4E2001C6A7C /* GlobalVariable.swift */,
 				BF6D3C95246EE5F40018A9D2 /* Main.storyboard */,
 				BF6D3C98246EE5F80018A9D2 /* Assets.xcassets */,
 				BF6D3C9A246EE5F80018A9D2 /* LaunchScreen.storyboard */,
 				BF6D3C9D246EE5F80018A9D2 /* Info.plist */,
 			);
-			path = SiomSays;
+			path = MelodyMemory;
 			sourceTree = "<group>";
 		};
-		BF6D3CA5246EE5F80018A9D2 /* SiomSaysTests */ = {
+		BF6D3CA5246EE5F80018A9D2 /* MelodyMemoryTests */ = {
 			isa = PBXGroup;
 			children = (
 				BF6D3CA6246EE5F80018A9D2 /* SiomSaysTests.swift */,
 				BF6D3CA8246EE5F80018A9D2 /* Info.plist */,
 			);
-			path = SiomSaysTests;
+			path = MelodyMemoryTests;
 			sourceTree = "<group>";
 		};
-		BF6D3CB0246EE5F80018A9D2 /* SiomSaysUITests */ = {
+		BF6D3CB0246EE5F80018A9D2 /* MelodyMemoryUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BF6D3CB1246EE5F80018A9D2 /* SiomSaysUITests.swift */,
 				BF6D3CB3246EE5F80018A9D2 /* Info.plist */,
 			);
-			path = SiomSaysUITests;
+			path = MelodyMemoryUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF6D3C8B246EE5F40018A9D2 /* SiomSays */ = {
+		BF6D3C8B246EE5F40018A9D2 /* MelodyMemory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF6D3CB6246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSays" */;
+			buildConfigurationList = BF6D3CB6246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemory" */;
 			buildPhases = (
 				BF6D3C88246EE5F40018A9D2 /* Sources */,
 				BF6D3C89246EE5F40018A9D2 /* Frameworks */,
@@ -143,14 +190,14 @@
 			);
 			dependencies = (
 			);
-			name = SiomSays;
+			name = MelodyMemory;
 			productName = SiomSays;
-			productReference = BF6D3C8C246EE5F40018A9D2 /* SiomSays.app */;
+			productReference = BF6D3C8C246EE5F40018A9D2 /* MelodyMemory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF6D3CA1246EE5F80018A9D2 /* SiomSaysTests */ = {
+		BF6D3CA1246EE5F80018A9D2 /* MelodyMemoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF6D3CB9246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSaysTests" */;
+			buildConfigurationList = BF6D3CB9246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemoryTests" */;
 			buildPhases = (
 				BF6D3C9E246EE5F80018A9D2 /* Sources */,
 				BF6D3C9F246EE5F80018A9D2 /* Frameworks */,
@@ -161,14 +208,14 @@
 			dependencies = (
 				BF6D3CA4246EE5F80018A9D2 /* PBXTargetDependency */,
 			);
-			name = SiomSaysTests;
+			name = MelodyMemoryTests;
 			productName = SiomSaysTests;
-			productReference = BF6D3CA2246EE5F80018A9D2 /* SiomSaysTests.xctest */;
+			productReference = BF6D3CA2246EE5F80018A9D2 /* MelodyMemoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF6D3CAC246EE5F80018A9D2 /* SiomSaysUITests */ = {
+		BF6D3CAC246EE5F80018A9D2 /* MelodyMemoryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF6D3CBC246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSaysUITests" */;
+			buildConfigurationList = BF6D3CBC246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemoryUITests" */;
 			buildPhases = (
 				BF6D3CA9246EE5F80018A9D2 /* Sources */,
 				BF6D3CAA246EE5F80018A9D2 /* Frameworks */,
@@ -179,9 +226,9 @@
 			dependencies = (
 				BF6D3CAF246EE5F80018A9D2 /* PBXTargetDependency */,
 			);
-			name = SiomSaysUITests;
+			name = MelodyMemoryUITests;
 			productName = SiomSaysUITests;
-			productReference = BF6D3CAD246EE5F80018A9D2 /* SiomSaysUITests.xctest */;
+			productReference = BF6D3CAD246EE5F80018A9D2 /* MelodyMemoryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF6D3C87246EE5F40018A9D2 /* Build configuration list for PBXProject "SiomSays" */;
+			buildConfigurationList = BF6D3C87246EE5F40018A9D2 /* Build configuration list for PBXProject "MelodyMemory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF6D3C8B246EE5F40018A9D2 /* SiomSays */,
-				BF6D3CA1246EE5F80018A9D2 /* SiomSaysTests */,
-				BF6D3CAC246EE5F80018A9D2 /* SiomSaysUITests */,
+				BF6D3C8B246EE5F40018A9D2 /* MelodyMemory */,
+				BF6D3CA1246EE5F80018A9D2 /* MelodyMemoryTests */,
+				BF6D3CAC246EE5F80018A9D2 /* MelodyMemoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C5C9824708BCB000C2741 /* 4.mp3 in Resources */,
+				BF3C5C8F24708BBD000C2741 /* 1.mp3 in Resources */,
 				BF6D3C9C246EE5F80018A9D2 /* LaunchScreen.storyboard in Resources */,
+				BF3C5C8C24708BB8000C2741 /* 0.mp3 in Resources */,
 				BF6D3C99246EE5F80018A9D2 /* Assets.xcassets in Resources */,
 				BF6D3C97246EE5F40018A9D2 /* Main.storyboard in Resources */,
+				BF3C5C9224708BC1000C2741 /* 2.mp3 in Resources */,
+				BF3C5C9524708BC6000C2741 /* 3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C5C9324708BC2000C2741 /* 2.mp3 in Resources */,
+				BF3C5C9024708BBD000C2741 /* 1.mp3 in Resources */,
+				BF3C5C9624708BC7000C2741 /* 3.mp3 in Resources */,
+				BF3C5C9A24708BCC000C2741 /* 4.mp3 in Resources */,
+				BF3C5C8D24708BB8000C2741 /* 0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +306,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C5C9424708BC3000C2741 /* 2.mp3 in Resources */,
+				BF3C5C9124708BBE000C2741 /* 1.mp3 in Resources */,
+				BF3C5C9724708BC7000C2741 /* 3.mp3 in Resources */,
+				BF3C5C9924708BCB000C2741 /* 4.mp3 in Resources */,
+				BF3C5C8E24708BB9000C2741 /* 0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +323,10 @@
 			files = (
 				BF6D3C94246EE5F40018A9D2 /* ViewController.swift in Sources */,
 				BF6D3C90246EE5F40018A9D2 /* AppDelegate.swift in Sources */,
+				BF5DB7F72471A4E2001C6A7C /* GlobalVariable.swift in Sources */,
+				BF7D1D2B2471797B00AA3063 /* ScoreScreenView.swift in Sources */,
 				BF6D3C92246EE5F40018A9D2 /* SceneDelegate.swift in Sources */,
+				BF3C5C79246F600F000C2741 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C5C9B2470BCCA000C2741 /* ViewController.swift in Sources */,
 				BF6D3CA7246EE5F80018A9D2 /* SiomSaysTests.swift in Sources */,
+				BF5DB7F82471A4E2001C6A7C /* GlobalVariable.swift in Sources */,
+				BF3C5C7A246F6524000C2741 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6D3CB2246EE5F80018A9D2 /* SiomSaysUITests.swift in Sources */,
+				BF3C5C7B246F6524000C2741 /* RoundedButton.swift in Sources */,
+				BF5DB7F92471A4E2001C6A7C /* GlobalVariable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +356,12 @@
 /* Begin PBXTargetDependency section */
 		BF6D3CA4246EE5F80018A9D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF6D3C8B246EE5F40018A9D2 /* SiomSays */;
+			target = BF6D3C8B246EE5F40018A9D2 /* MelodyMemory */;
 			targetProxy = BF6D3CA3246EE5F80018A9D2 /* PBXContainerItemProxy */;
 		};
 		BF6D3CAF246EE5F80018A9D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF6D3C8B246EE5F40018A9D2 /* SiomSays */;
+			target = BF6D3C8B246EE5F40018A9D2 /* MelodyMemory */;
 			targetProxy = BF6D3CAE246EE5F80018A9D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,15 +506,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4853GQ2WR;
-				INFOPLIST_FILE = SiomSays/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MelodyMemory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.dancargill.SiomSays;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.dancargill.MelodyMemory;
+				PRODUCT_NAME = MelodyMemory;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,15 +524,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4853GQ2WR;
-				INFOPLIST_FILE = SiomSays/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MelodyMemory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.dancargill.SiomSays;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.dancargill.MelodyMemory;
+				PRODUCT_NAME = MelodyMemory;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiomSays.app/SiomSays";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelodyMemory.app/MelodyMemory";
 			};
 			name = Debug;
 		};
@@ -506,7 +576,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiomSays.app/SiomSays";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelodyMemory.app/MelodyMemory";
 			};
 			name = Release;
 		};
@@ -553,7 +623,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF6D3C87246EE5F40018A9D2 /* Build configuration list for PBXProject "SiomSays" */ = {
+		BF6D3C87246EE5F40018A9D2 /* Build configuration list for PBXProject "MelodyMemory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF6D3CB4246EE5F80018A9D2 /* Debug */,
@@ -562,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF6D3CB6246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSays" */ = {
+		BF6D3CB6246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF6D3CB7246EE5F80018A9D2 /* Debug */,
@@ -571,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF6D3CB9246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSaysTests" */ = {
+		BF6D3CB9246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF6D3CBA246EE5F80018A9D2 /* Debug */,
@@ -580,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF6D3CBC246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "SiomSaysUITests" */ = {
+		BF6D3CBC246EE5F80018A9D2 /* Build configuration list for PBXNativeTarget "MelodyMemoryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF6D3CBD246EE5F80018A9D2 /* Debug */,

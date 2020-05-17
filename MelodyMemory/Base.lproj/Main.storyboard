@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SiomSays" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gwn-Rx-ghz">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kw3-Hb-Pyo">
+                                        <rect key="frame" x="54" y="8" width="306" height="92"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="306" id="NGP-st-7nd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Action Button">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="actionButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PcT-mf-3KB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kw3-Hb-Pyo" secondAttribute="bottom" id="8pz-bd-OGv"/>
+                                    <constraint firstItem="kw3-Hb-Pyo" firstAttribute="leading" secondItem="Gwn-Rx-ghz" secondAttribute="leading" constant="54" id="CoG-bw-f4z"/>
+                                    <constraint firstAttribute="height" constant="100" id="YQx-qf-Gnd"/>
+                                    <constraint firstItem="kw3-Hb-Pyo" firstAttribute="centerX" secondItem="Gwn-Rx-ghz" secondAttribute="centerX" id="oeI-wh-c2U"/>
+                                    <constraint firstItem="kw3-Hb-Pyo" firstAttribute="top" secondItem="Gwn-Rx-ghz" secondAttribute="topMargin" id="u31-bY-UXp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BvL-lH-H9K">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="762"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-nw-PBI">
+                                        <rect key="frame" x="10" y="52" width="398" height="710"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDY-bA-2En" customClass="RoundedButton" customModule="SiomSays" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="139"/>
+                                                <color key="backgroundColor" red="1" green="0.41960784313725491" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="colorButtonHandles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z74-MT-hif"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAh-au-Zou" customClass="RoundedButton" customModule="SiomSays" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="143" width="398" height="138.5"/>
+                                                <color key="backgroundColor" red="0.28235294117647058" green="0.85882352941176465" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="colorButtonHandles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nsT-hM-TKl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ift-fo-ccA" customClass="RoundedButton" customModule="SiomSays" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="285.5" width="398" height="139"/>
+                                                <color key="backgroundColor" red="0.11372549019607843" green="0.81960784313725488" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="colorButtonHandles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qin-Cz-VsZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwg-7S-ZEC" customClass="RoundedButton" customModule="SiomSays" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="428.5" width="398" height="138.5"/>
+                                                <color key="backgroundColor" red="0.99607843137254903" green="0.792156862745098" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="colorButtonHandles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mop-HI-3oU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IM-9P-mVA" customClass="RoundedButton" customModule="SiomSays" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="571" width="398" height="139"/>
+                                                <color key="backgroundColor" red="1" green="0.62352941176470589" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="colorButtonHandles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s69-Ga-CJh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="x6K-nw-PBI" firstAttribute="top" secondItem="BvL-lH-H9K" secondAttribute="top" constant="52" id="MES-1K-chi"/>
+                                    <constraint firstAttribute="trailing" secondItem="x6K-nw-PBI" secondAttribute="trailing" constant="6" id="SKR-74-hlz"/>
+                                    <constraint firstAttribute="bottom" secondItem="x6K-nw-PBI" secondAttribute="bottom" id="qfx-i2-qju"/>
+                                    <constraint firstItem="x6K-nw-PBI" firstAttribute="leading" secondItem="BvL-lH-H9K" secondAttribute="leading" constant="10" id="xiA-R3-cE9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.18431372549019609" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gwn-Rx-ghz" secondAttribute="trailing" id="0cd-31-i4I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BvL-lH-H9K" secondAttribute="trailing" id="VrW-WA-C3d"/>
+                            <constraint firstItem="Gwn-Rx-ghz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bHU-Kc-Wx5"/>
+                            <constraint firstItem="BvL-lH-H9K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="he1-8r-eGd"/>
+                            <constraint firstItem="BvL-lH-H9K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pHG-9G-vL5"/>
+                            <constraint firstItem="Gwn-Rx-ghz" firstAttribute="top" secondItem="BvL-lH-H9K" secondAttribute="bottom" id="sLI-Pa-K2i"/>
+                            <constraint firstItem="BvL-lH-H9K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v0Y-Y8-Lcl"/>
+                            <constraint firstItem="Gwn-Rx-ghz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w2L-Vd-Yk0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SR9-u8-QIv"/>
+                    <connections>
+                        <outlet property="actionButton" destination="kw3-Hb-Pyo" id="owg-n5-TRX"/>
+                        <outletCollection property="colorButtons" destination="UDY-bA-2En" collectionClass="NSMutableArray" id="fh6-if-CVk"/>
+                        <outletCollection property="colorButtons" destination="AAh-au-Zou" collectionClass="NSMutableArray" id="eSq-nS-lmY"/>
+                        <outletCollection property="colorButtons" destination="ift-fo-ccA" collectionClass="NSMutableArray" id="IYz-xP-fFD"/>
+                        <outletCollection property="colorButtons" destination="Wwg-7S-ZEC" collectionClass="NSMutableArray" id="PV8-rf-OQe"/>
+                        <outletCollection property="colorButtons" destination="8IM-9P-mVA" collectionClass="NSMutableArray" id="Ygg-m5-2gC"/>
+                        <segue destination="90A-sf-8ah" kind="show" identifier="segue" id="OIB-u9-JQf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+        <!--Score View-->
+        <scene sceneID="ele-pe-q85">
+            <objects>
+                <viewController id="90A-sf-8ah" userLabel="Score View" customClass="ScoreScreenView" customModule="SiomSays" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="weW-oa-Gwa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="136" translatesAutoresizingMaskIntoConstraints="NO" id="azo-IS-YCI">
+                                <rect key="frame" x="20" y="134" width="374" height="584"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="584" id="s2Y-z8-sYd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="271"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tex-gc-b33">
+                                <rect key="frame" x="20" y="44" width="374" height="81.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="68"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-ix-qcV">
+                                <rect key="frame" x="20" y="725" width="374" height="83"/>
+                                <color key="backgroundColor" red="0.11372549019607843" green="0.81960784313725488" blue="0.63137254901960782" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="AA3-EI-Utl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newGameButton:" destination="90A-sf-8ah" eventType="touchUpInside" id="c27-nv-2gI"/>
+                                    <segue destination="jhh-X7-W9B" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="TeL-rY-rmR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.18431372549019609" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="azo-IS-YCI" firstAttribute="trailing" secondItem="8ji-ix-qcV" secondAttribute="trailing" id="40E-JW-xPd"/>
+                            <constraint firstItem="azo-IS-YCI" firstAttribute="trailing" secondItem="Tex-gc-b33" secondAttribute="trailing" id="ALC-Xc-WFO"/>
+                            <constraint firstItem="Tex-gc-b33" firstAttribute="leading" secondItem="O0d-3O-i4y" secondAttribute="leading" constant="20" id="D2Z-xL-Ua1"/>
+                            <constraint firstItem="8ji-ix-qcV" firstAttribute="top" secondItem="azo-IS-YCI" secondAttribute="bottom" constant="7" id="F7j-sj-Dgh"/>
+                            <constraint firstItem="Tex-gc-b33" firstAttribute="top" secondItem="O0d-3O-i4y" secondAttribute="top" constant="44" id="X3M-1d-TD2"/>
+                            <constraint firstItem="8ji-ix-qcV" firstAttribute="bottom" secondItem="O0d-3O-i4y" secondAttribute="bottom" id="Yvc-Ko-EcE"/>
+                            <constraint firstItem="O0d-3O-i4y" firstAttribute="trailing" secondItem="Tex-gc-b33" secondAttribute="trailing" constant="20" id="b0B-Fw-9d9"/>
+                            <constraint firstItem="azo-IS-YCI" firstAttribute="leading" secondItem="8ji-ix-qcV" secondAttribute="leading" id="st6-K0-dLx"/>
+                            <constraint firstItem="azo-IS-YCI" firstAttribute="leading" secondItem="Tex-gc-b33" secondAttribute="leading" id="tr9-Pv-2b2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O0d-3O-i4y"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H4W-wU-cDQ"/>
+                    <connections>
+                        <outlet property="finalScoreLabel" destination="azo-IS-YCI" id="jSW-gG-Q4E"/>
+                        <outlet property="newGameButton" destination="8ji-ix-qcV" id="Me3-f0-DrP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ic-Dk-aU0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="jhh-X7-W9B" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="908.69565217391312" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>
