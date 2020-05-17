@@ -3,8 +3,8 @@
 
 Simon-like app built in Swift for iOS Devices.
 
+<img src="https://github.com/dcrgll/MelodyMemory/blob/master/demo.gif" width="auto" height="700px" />
 
-![Gif of mobile app](https://github.com/dcrgll/MelodyMemory/blob/master/demo.gif)
 
 
 
