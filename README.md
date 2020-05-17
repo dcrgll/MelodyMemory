@@ -4,10 +4,12 @@
 Simon-like app built in Swift for iOS Devices.
 
 
+![Gif of mobile app](https://github.com/dcrgll/MelodyMemory/blob/master/demo.gif)
+
+
+
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-
-![Gif of mobile app](https://s6.gifyu.com/images/demo5720f6c52c2612a8.gif)
 
 ### Clone
 
